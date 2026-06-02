@@ -22,7 +22,7 @@ export default function RootLayout({
         <link
           rel="icon"
           type="image/png"
-          href="/a-letter-logo-modified.png"
+          href="/w-letter-logo.png"
           sizes="any"
         />
       </head>

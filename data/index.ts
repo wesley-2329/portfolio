@@ -73,9 +73,9 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Cyber-Sanrakshak: A Centralized Firewall",
-    des: "Context-aware firewall with ML-based threat detection and admin dashboard.",
-    img: "/project_images/cyberSanrakshak.png",
+    title: "Cyber-SecureSphere: A Centralized Firewall",
+    des: "Context-aware firewall with ML-based threat detAdvanced cross-platform firewall ecosystem integrating a centralized administrator dashboard, scalable backend services, and a localized firewall agent for comprehensive network security monitoring.",
+    img: "/project_images/cyberSecureSphere.png",
     iconLists: [
       "/icons/Next.js.svg",
       "/icons/TypeScript.svg",
@@ -83,7 +83,7 @@ export const projects = [
       "/icons/Python.svg",
       "/icons/Keras.svg",
     ],
-    link: "https://github.com/ayesha19765/final_CSS",
+    link: "https://github.com/wesley-2329/Cyber-SecureSphere",
   },
   {
     id: 7,
@@ -196,17 +196,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
-    link: "https://github.com/ayesha19765",
+    link: "https://github.com/wesley-2329",
   },
   {
     id: 2,
     img: "/leetcode.svg",
-    link: "https://leetcode.com/u/ayesha19765/",
+    link: "https://leetcode.com/u/wesley290305/",
   },
   {
     id: 3,
     img: "/link.svg",
-    link: "https://www.linkedin.com/in/ayesha19765/",
+    link: "https://www.linkedin.com/in/john-wesley-933737262/",
   },
 ];
 
