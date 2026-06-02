@@ -2,10 +2,10 @@
 import { FaLocationArrow } from "react-icons/fa6";
 
 import MagicButton from "./MagicButton";
-
-   import { Spotlight } from "./ui/Spotlight";
+import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { FlipWords } from "./ui/FlipWords"; // Corrected import path
+import { FlipWords } from "./ui/FlipWords";
+
 const words = [
   "a Full Stack Developer",
   "a DSA Enthusiast",
@@ -55,7 +55,6 @@ const Hero = () => {
       <div className="flex justify-center relative my-20 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
           <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80 md:max-w-[95%]">
-            {/* Dynamic Web Magic with Next.js */}
             Code Architect | Algorithmic Storyteller | Digital Innovator
           </p>
 
@@ -73,17 +72,19 @@ const Hero = () => {
             Hi! I&apos;m Wesley,
             <FlipWords words={words} />
           </div>
-        <a 
-          href="https://drive.google.com/file/d/1ab4JsFzX9Yv1EadZWkGYk6_p8cQPPPMI/view?usp=drive_link"
-          target="_blank" 
-          rel="noreferrer"
-        >
-          <MagicButton
-            title="Show my resume"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
-        </a>
+
+          <a
+            href="https://drive.google.com/file/d/1ab4JsFzX9Yv1EadZWkGYk6_p8cQPPPMI/view?usp=drive_link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <MagicButton
+              title="Show my resume"
+              icon={<FaLocationArrow />}
+              position="right"
+            />
+          </a>
+        </div>
       </div>
     </div>
   );
